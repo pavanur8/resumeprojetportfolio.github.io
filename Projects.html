@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        #bg {
+            animation: changeBg 10s linear infinite alternate; /* Background color animation */
+        }
+
+        @keyframes changeBg {
+            0% { background-color: #ff9999; } 
+            25% { background-color: #99ff99; } 
+            50% { background-color: #9999ff; } 
+            75% { background-color: #ffff99; }
+            100% { background-color: #ff99ff; } 
+        }
+
+        h1 {
+            text-align: center;
+            color: red;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #008CBA; /* Blue color for headings */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #333;
+            background-image: linear-gradient(to right, #ccc, #333, #ccc);
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body id="bg">
+    <h1><u>PROJECTS</u></h1> 
+    <hr>
+    <h3><u>DAVANAGERE CYCLING CLUB</u></h3>
+    <ul>
+        <li>
+            <p>It is a social interaction tool to act as a bridge between the cyclists and admin. DAVANAGERE CYCLING CLUB's motto is to promote cycling and create awareness regarding cycling.</p>
+        </li>
+    </ul>
+    <h3><u>EARTHQUAKE PREDICTION MODEL USING MACHINE LEARNING</u></h3>
+    <ul>
+        <li>
+            <p>This project proposes the use of a linear regression model for earthquake prediction by analyzing seismic data. The model captures the linear relationship between input features and earthquake occurrences, such as magnitude, depth, and location.</p>
+        </li>
+        <li>
+            <p>The model is trained using gradient descent. Evaluation metrics demonstrate the model's strong correlation and accurate estimation of earthquake probabilities. The simplicity and interpretability of the linear regression model make it practical for implementation and decision-making in earthquake prediction.</p>
+        </li>
+    </ul>
+</body>
+</html>

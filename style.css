@@ -1,0 +1,75 @@
+body {
+    
+    background-color: #78e4ff;
+    font-family: 'Times New Roman'; /* Specify a fallback font family */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #c92d22; 
+    color: white; 
+    padding: 10px;
+    text-align: center;
+}
+footer {
+    background-color: royalblue; 
+    color: white; 
+    padding: 10px;
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50; /* Green color for the heading */
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #4CAF50; /* Green color for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+    color: #2E8B57; /* Dark green color on hover */
+}
+.a1{
+    color: red;
+}
+.a2{
+    color: black;
+}
+.a3{
+    color: red;
+}
+.a4{
+    color: black;
+}
+
+@keyframes marqueeAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+marquee {
+    animation: marqueeAnimation 8s linear infinite;
+}
+
